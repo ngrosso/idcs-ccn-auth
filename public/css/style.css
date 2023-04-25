@@ -11,7 +11,7 @@ body {
 
 .body-background{
     background-image: url('https://www.ccn.com.ni/wp-content/uploads/b2b/loginBackground.jpg');
-    height: 100vh;
+    height: 95vh;
     align-items: center;
     background-size: cover;
 }
@@ -130,7 +130,6 @@ h3 {
   width: 100%;
   font-size: 22px;
   color: #606060;
-  padding: 0 0 15px 0;
   text-align: center;
 }
 
@@ -199,7 +198,7 @@ input.on__error {
 }
 
 .logo-img{
-  width: 35%;
+  width: 18%;
 }
 
 .cont {
@@ -224,7 +223,7 @@ input.on__error {
   transition: -webkit-transform 1.2s ease-in-out;
   transition: transform 1.2s ease-in-out;
   transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
-  margin: 10px 10px;
+  margin: 10px;
 }
 
 .sub-cont {
