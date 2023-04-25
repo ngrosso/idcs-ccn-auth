@@ -22,14 +22,14 @@
   <div class="cont">
     <img src="" alt="">
     <div class="logo-img-position ">
-      <img src="https://www.ccn.com.ni/wp-content/uploads/b2b/logoVerification1232x1635.png" class="logo-img"/>
+      <img src="https://www.ccn.com.ni/wp-content/uploads/b2b/logoVerification1232x1635.png" class="logo-img" />
     </div>
     <div class="form sign" id="signin-div">
       <!-- You'll notice that there's nothing actually here -->
       <!-- the entire DIV with the name "signin-div" is replaced w/ the -->
       <!-- login form via JS when loginApp.js loads -->
     </div>
-  
+
     <div class="mob-sin-sup hidelater">
       <span class="info" data-res="bar-signup-hdr">Don't have an account?</span>&nbsp;<a href="#"
         class="mob-up-btn info" data-res="bar-signup-btn">Sign Up</a>
@@ -65,7 +65,9 @@
   <script src="./js/idcsAuthnSDK.js"></script>
   <script src="./js/loginApp.js"></script>
   <script src="./js/WebAuthn.js"></script>
-
+  <script>
+  document.querySelector("#signin-forgot-pass").click();
+  </script>
 </body>
 
 </html>

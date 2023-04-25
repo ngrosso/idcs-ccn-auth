@@ -1153,7 +1153,7 @@ function LoginApp() {
       backToLoginDivElem.classList.add("pwdless-width");
       backToLoginDivElem.innerHTML = '<div class="hr"><hr class="left"><span class="hr-text" data-res="or-msg">Or</span><hr class="right"></div>';
       backToLoginDivElem.innerHTML += '<a href="#" id="back-to-login-btn" data-res="back-to-login-msg">Back to Login</a>';
-      signinDivParent.appendChild(backToLoginDivElem);
+      //signinDivParent.appendChild(backToLoginDivElem);
 
       document.getElementById("back-to-login-btn").onclick = function () {
         self.sdk.initAuthentication();
@@ -1686,7 +1686,7 @@ function LoginApp() {
     backToLoginDivElem.classList.add('newline');
     backToLoginDivElem.innerHTML = '<div class="hr"><hr class="left"><span class="hr-text" data-res="or-msg">OR</span><hr class="right"></div>';
     backToLoginDivElem.innerHTML += '<a href="#" id="back-to-login-btn" data-res="back-to-login-msg">Back to Login</a>';
-    formDiv.appendChild(backToLoginDivElem);
+    //formDiv.appendChild(backToLoginDivElem);
 
     if ((payload.IDP) && (payload.IDP.configuredIDPs.length > 0)) {
       var formIDPDiv = document.createElement('div');
@@ -1757,7 +1757,7 @@ function LoginApp() {
     backToLoginDivElem.classList.add('newline');
     backToLoginDivElem.innerHTML = '<div class="hr"><hr class="left"><span class="hr-text" data-res="or-msg">OR</span><hr class="right"></div>';
     backToLoginDivElem.innerHTML += '<a href="#" id="back-to-login-btn" data-res="back-to-login-msg">Back to Login</a>';
-    formDiv.appendChild(backToLoginDivElem);
+    //formDiv.appendChild(backToLoginDivElem);
 
     this.replaceDiv("signin-div", formDiv, true);
 
@@ -1813,7 +1813,7 @@ function LoginApp() {
     backToLoginDivElem.classList.add('newline');
     backToLoginDivElem.innerHTML = '<div class="hr"><hr class="left"><span class="hr-text" data-res="or-msg">OR</span><hr class="right"></div>';
     backToLoginDivElem.innerHTML += '<a href="#" id="back-to-login-btn" data-res="back-to-login-msg">Back to Login</a>';
-    formDiv.appendChild(backToLoginDivElem);
+    //formDiv.appendChild(backToLoginDivElem);
 
     this.replaceDiv("signin-div", formDiv, true);
 
@@ -1847,7 +1847,7 @@ function LoginApp() {
     backToLoginDivElem.classList.add('newline');
     backToLoginDivElem.innerHTML = '<div class="hr"><hr class="left"><span class="hr-text" data-res="or-msg">OR</span><hr class="right"></div>';
     backToLoginDivElem.innerHTML += '<a href="#" id="back-to-login-btn" data-res="back-to-login-msg">Back to Login</a>';
-    formDiv.appendChild(backToLoginDivElem);
+    //formDiv.appendChild(backToLoginDivElem);
 
     this.replaceDiv("signin-div", formDiv, true);
 
@@ -1880,7 +1880,7 @@ function LoginApp() {
     backToLoginDivElem.classList.add('newline');
     backToLoginDivElem.innerHTML = '<div class="hr"><hr class="left"><span class="hr-text" data-res="or-msg">OR</span><hr class="right"></div>';
     backToLoginDivElem.innerHTML += '<a href="#" id="back-to-login-btn" data-res="back-to-login-msg">Back to Login</a>';
-    formDiv.appendChild(backToLoginDivElem);
+    //formDiv.appendChild(backToLoginDivElem);
 
     this.replaceDiv("signin-div", formDiv, true);
 
@@ -1912,7 +1912,7 @@ function LoginApp() {
     backToLoginDivElem.classList.add('newline');
     backToLoginDivElem.innerHTML = '<div class="hr"><hr class="left"><span class="hr-text" data-res="or-msg">OR</span><hr class="right"></div>';
     backToLoginDivElem.innerHTML += '<a href="#" id="back-to-login-btn" data-res="back-to-login-msg">Back to Login</a>';
-    formDiv.appendChild(backToLoginDivElem);
+    //formDiv.appendChild(backToLoginDivElem);
 
     this.replaceDiv("signin-div", formDiv, true);
 
