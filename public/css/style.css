@@ -9,6 +9,13 @@ body {
   background: #ededed;
 }
 
+.body-background{
+    background-image: url('https://www.ccn.com.ni/wp-content/uploads/b2b/loginBackground.jpg');
+    height: 100vh;
+    align-items: center;
+    background-size: cover;
+}
+
 input, button {
   border: none;
   outline: none;
@@ -185,15 +192,24 @@ input.on__error {
   text-shadow: -1px 1px 1px #aeaeb7;
 }
 
+.logo-img-position{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.logo-img{
+  width: 35%;
+}
+
 .cont {
   overflow: hidden;
   position: relative;
   background: #fff;
-  width: 900px;
-  height: 650px;
+  width: 650px;
+  height: 500px;
   margin: 0 auto 100px;
   resize: vertical;
-  min-height: 650px;
   box-shadow: -7px 7px 5px #aeaeb7;
   border-radius: 10px;
   display: flex;
@@ -461,12 +477,12 @@ a {
 }
 
 .submit {
-  background: #f80000;
+  background: #006a3a;
   text-transform: uppercase;
 }
 
 .submit:hover {
-  background: #e60000;
+  background: #006a3a;
 }
 
 .submit:disabled {

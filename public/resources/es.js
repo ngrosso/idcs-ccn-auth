@@ -143,8 +143,8 @@ const resources = {
   // Forgot password
   "forgot-pw-btn" : "¿Olvidó su contraseña?",
   "forgot-pw-hdr" : "¿Olvidó su contraseña?",
-  "forgot-pw-info-msg" : "Por favor, digite el nombre de usuario para restablecer la contraseña.",
-  "forgot-pw-fld" : "Nombre de usuario",
+  "forgot-pw-info-msg" : "Por favor, escriba su mail para restablecer la contraseña.",
+  "forgot-pw-fld" : "Email",
   "forgot-pw-submit-btn" : "Enviar",
   "forgot-pw-success-info-msg" : "Un correo electrónico ha sido enviado para restablecer la contraseña del usuario ",
   "forgot-pw-ok-btn": "Bien",
