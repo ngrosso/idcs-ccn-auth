@@ -179,8 +179,10 @@ const resources = {
   "reset-pw-fld": "Password",
   "reset-pw-confirm-fld": "Confirm Password",
   "reset-pw-submit-btn": "Submit",
-  "reset-pw-success-info-msg": "Your password has been successfully reset.",
+  "reset-pw-success-info-msg": "Your new password has been generated.",
   "reset-pw-windows-close-msg": "You can close this window.",
+  "redirect-portal-msg": "For international purchases Access our the Web Portal",
+  "redirect-app-msg": "For purchases within Nicaragua, access the mobile application",
   "reset-pw-ok-btn": "Ok",
   "reset-pw-nomatch-msg": "Password and Confirm Password did not match! Please, retry.",
 
