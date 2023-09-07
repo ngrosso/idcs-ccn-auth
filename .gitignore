@@ -106,3 +106,4 @@ dist
 # Local Netlify folder
 .netlify
 run.bat
+run.sh
