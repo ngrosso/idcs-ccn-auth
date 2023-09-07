@@ -158,8 +158,10 @@ const resources = {
   "reset-pw-fld" : "Contraseña",
   "reset-pw-confirm-fld" : "Confirmar Contraseña",
   "reset-pw-submit-btn" : "Enviar",
-  "reset-pw-success-info-msg" : "Su contraseña ha sido restablecida.",
+  "reset-pw-success-info-msg" : "Se generó tu nueva clave.",
   "reset-pw-windows-close-msg" : "Puede cerrar esta ventana.",
+  "redirect-portal-msg": "Para compras internacionales ingresa al Portal Web",
+  "redirect-app-msg": "Para compras dentro de Nicaragua accede a la aplicación móvil",
   "reset-pw-ok-btn": "Bien",
   "reset-pw-nomatch-msg" : "¡La contraseña y la confirmación de contraseña no son iguales! Por favor, intente de nuevo.",
 
