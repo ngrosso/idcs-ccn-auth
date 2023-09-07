@@ -107,3 +107,4 @@ dist
 .netlify
 run.bat
 run.sh
+.env
