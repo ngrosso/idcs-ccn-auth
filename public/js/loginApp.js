@@ -1975,7 +1975,7 @@ function LoginApp() {
       '<div class="sameline">' +
       '<span class="info" data-res="reset-pw-success-info-msg">Your new password has been generated</span>' +
       '<span class="info" data-res="reset-pw-windows-close-msg">You can close this window.</span> <br>'  + 
-      '<a href="https://ccn-demov2.netlify.app/" class="info" data-res="redirect-portal-msg">For international purchases Access our the Web Portal</a> <br> ' +
+      '<a href="https://internacional.grupoccn.com.ni/" class="info" data-res="redirect-portal-msg">For international purchases Access our the Web Portal</a> <br> ' +
       '<a href="https://play.google.com/apps/internaltest/4700224078397598736" class="info" data-res="redirect-app-msg">For purchases within Nicaragua, access the mobile application</a>' 
       '</div>' +
       '<label class="error-msg" id="login-error-msg"></label>';
